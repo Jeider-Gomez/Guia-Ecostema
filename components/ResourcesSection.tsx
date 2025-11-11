@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Section from './Section';
 import { ExternalLinkIcon, ImageIcon, FileTextIcon, Volume2Icon } from './icons/Icons';
@@ -14,13 +13,13 @@ const resources = [
     icon: <FileTextIcon className="w-8 h-8" />,
     title: 'Curiosidades de la Biodiversidad',
     description: 'Un artículo breve con datos fascinantes sobre la vida en nuestro planeta.',
-    link: '#',
+    link: 'https://www.nationalgeographicla.com/medio-ambiente/2024/06/dia-mundial-del-medio-ambiente-los-7-datos-curiosos-sobre-los-ecosistemas-que-debes-conocer',
   },
   {
     icon: <Volume2Icon className="w-8 h-8" />,
     title: 'Sonidos de la Naturaleza',
     description: 'Relájate y escucha los sonidos de un bosque lluvioso.',
-    link: '#',
+    link: 'https://www.youtube.com/watch?v=mK8WaoqHES4',
   }
 ];
 
