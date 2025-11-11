@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Section from './Section';
-import { UsersIcon, ExternalLinkIcon } from './icons/Icons';
+import { UsersIcon } from './icons/Icons';
 
 const CollaborationSection: React.FC = () => {
   return (
@@ -13,17 +13,13 @@ const CollaborationSection: React.FC = () => {
     >
       <div className="max-w-5xl mx-auto bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
         <p className="text-center text-gray-600 mb-8 text-lg">
-          Ahora trabajarán en equipos para construir mapas conceptuales y murales sobre los ecosistemas. Usen las siguientes herramientas para compartir ideas y crear algo increíble juntos.
+          Ahora trabajarán en equipos para construir un mural sobre los ecosistemas. Usen la siguiente herramienta para compartir ideas y crear algo increíble juntos.
         </p>
         
-        <div className="grid md:grid-cols-2 gap-8 text-center mb-10">
-          <a href="https://padlet.com/" target="_blank" rel="noopener noreferrer" className="block p-6 bg-amber-100 text-amber-800 rounded-lg hover:bg-amber-200 transition-colors duration-300 shadow-md">
+        <div className="flex justify-center mb-10">
+          <a href="https://padlet.com/jgomezoviedo15/nuestro-mural-de-ecosistemas-wcdzc08bm7bqfoq8" target="_blank" rel="noopener noreferrer" className="block p-8 bg-amber-100 text-amber-800 rounded-lg hover:bg-amber-200 transition-all duration-300 shadow-md hover:shadow-xl w-full md:w-1/2 text-center">
             <h3 className="text-2xl font-bold mb-2">🧠 Padlet</h3>
-            <p>Ideal para una lluvia de ideas rápida y compartir recursos.</p>
-          </a>
-          <a href="https://jamboard.google.com/" target="_blank" rel="noopener noreferrer" className="block p-6 bg-sky-100 text-sky-800 rounded-lg hover:bg-sky-200 transition-colors duration-300 shadow-md">
-            <h3 className="text-2xl font-bold mb-2">🗺️ Jamboard</h3>
-            <p>Perfecto para crear mapas conceptuales y diagramas visuales.</p>
+            <p>Usa nuestro mural colaborativo para una lluvia de ideas rápida y compartir recursos.</p>
           </a>
         </div>
 
@@ -36,7 +32,7 @@ const CollaborationSection: React.FC = () => {
             </li>
             <li className="flex items-start">
               <span className="flex items-center justify-center w-8 h-8 mr-4 bg-emerald-500 text-white rounded-full font-bold">2</span>
-              <span className="text-gray-700 text-lg">Abre el enlace a la herramienta colaborativa que tu profesor asigne.</span>
+              <span className="text-gray-700 text-lg">Abre el enlace a Padlet para empezar a colaborar.</span>
             </li>
             <li className="flex items-start">
               <span className="flex items-center justify-center w-8 h-8 mr-4 bg-emerald-500 text-white rounded-full font-bold">3</span>

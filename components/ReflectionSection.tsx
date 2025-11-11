@@ -23,7 +23,7 @@ const ReflectionSection: React.FC = () => {
         </div>
         <div className="text-center mt-12">
           <a
-            href="https://padlet.com/"
+            href="https://padlet.com/jgomezoviedo15/piensa-y-comparte-5y6sf9t37ht053vf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-transform transform hover:scale-105 duration-300 shadow-lg"

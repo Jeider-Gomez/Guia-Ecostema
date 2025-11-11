@@ -37,14 +37,8 @@ const ContentSection: React.FC = () => {
             <h3 className="text-2xl font-bold mb-4 text-gray-800">Video Introductorio</h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">Mira este video para tener una idea más clara sobre qué son los ecosistemas y su importancia.</p>
             <div className="aspect-w-16 aspect-h-9 rounded-lg shadow-2xl overflow-hidden max-w-4xl mx-auto">
-                <iframe 
-                    src="https://www.youtube.com/embed/CA25_28Lmm4" 
-                    title="Video educativo sobre ecosistemas" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen
-                    className="w-full h-full"
-                ></iframe>
+               {/* Fix: Corrected iframe attributes to use camelCase as required by React. 'frameborder' becomes 'frameBorder', 'referrerpolicy' becomes 'referrerPolicy', and 'allowfullscreen' becomes 'allowFullScreen'. */}
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/xM6IuFX64Qs?si=JE10b-eb9MnQtgJs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
         </div>
       </div>
