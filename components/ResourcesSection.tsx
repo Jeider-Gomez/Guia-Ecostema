@@ -8,7 +8,7 @@ const resources = [
     icon: <ImageIcon className="w-8 h-8" />,
     title: 'Infografía de Ecosistemas',
     description: 'Un resumen visual de los tipos de ecosistemas y sus características.',
-    link: '#',
+    link: 'https://infografia-ecosistema.vercel.app/',
   },
   {
     icon: <FileTextIcon className="w-8 h-8" />,
