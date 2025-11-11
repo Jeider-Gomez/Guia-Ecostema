@@ -19,7 +19,7 @@ const AssessmentSection: React.FC = () => {
           <div className="bg-yellow-400 h-2.5 rounded-full" style={{ width: '100%' }}></div>
         </div>
         <a
-          href="https://kahoot.it/"
+          href="https://create.kahoot.it/share/explorando-los-ecosistemas/356cc05a-f745-471e-9b74-7f4357dd86b6"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-white hover:bg-gray-200 text-emerald-700 font-bold py-4 px-10 rounded-full text-xl transition-transform transform hover:scale-105 duration-300 shadow-lg"
